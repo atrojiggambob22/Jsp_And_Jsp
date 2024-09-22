@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Basic Tags</title>
+        <link rel="stylesheet" href="./resources/fonts.css" />
+        <link rel="stylesheet" 
+              href="./resources/fonts.min.css" />
+        <link rel="stylesheet" href="./resources/w3.css" />
+        <link rel="stylesheet" href="./resources/overlay.css" />
+        <link rel="stylesheet" href="./resources/fonts.min.css" />
+        <link href="./resources/bootstrap.css" rel="stylesheet"/>
+        <script src="./resources/bootstrap.js"></script>
+        <h:outputStylesheet name="./resources/bootstrap.css"/>
+        <h:outputStylesheet name="./resources/fonts.min.css"/>
+        <h:outputStylesheet name="./resources/bootstrap.js"/>
+    </h:head>
+    <h:body>
+        <nav class="navbar navbar-light relative-top bg-light shadow-sm">
+        <div class="container-lg collapse navbar-collapse">
+            <a class="navbar-brand text-secondary fw-bold fs-4" href="#">Basic Tags</a>
+        </div>
+        <div class="me-md-5">
+            <a href="index.xhtml"><button>Go back</button></a>
+        </div>
+        </nav>
+        
+                   <br>
+<div>
+<ul class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+     <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:body </div>
+        Renders an HTML body tag.
+     </div>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:button </div>
+        Renders an HTML button that can cause a navigation response.
+      </div>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:commandButton </div>
+        Renders a submit button that can perform actions or send data to the server.
+      </div>
+   </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:commandLink </div>
+        Renders a link that acts like a form submit button.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:dataTable </div>
+        Renders an HTML table for displaying arrays or collections of data.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:form </div>
+        Renders an HTML form allowing components within it to submit data.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:graphicImage </div>
+        Renders an HTML img tag.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:head </div>
+        Renders the head section of the HTML document.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:inputHidden </div>
+        Renders an HTML input tag of type "hidden".
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:inputSecret </div>
+        Renders an HTML input tag for hiding its input (password).
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:inputText </div>
+        Renders an HTML input tag of type "text".
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:inputTextarea </div>
+        Renders an HTML textarea element.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:message </div>
+        Displays messages for a specific JSF component.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:messages </div>
+         Displays messages for multiple JSF components.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:outputFormat </div>
+         Renders parameterized text.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:outputLabel </div>
+         Renders an HTML label element.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:outputLink </div>
+         Renders an HTML anchor tag.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:outputText </div>
+         Renders static text.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:panelGrid </div>
+         Renders an HTML table to organize components.
+      </div>
+   </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+         <div class="fw-bold"> h:panelGroup </div>
+         
+      </div>
+    </li>
+</ul>
+</div>
+                   </br>
+    
+    </h:body>
+</html>
+

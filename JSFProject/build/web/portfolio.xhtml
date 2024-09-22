@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+    <meta charset="UTF-8"/>
+    <title>Albert Excel Software Engineer</title>
+    <link rel="stylesheet" href="./resources/fonts.css" />
+        <link rel="stylesheet" 
+              href="./resources/fonts.min.css" />
+        <link rel="stylesheet" href="./resources/w3.css" />
+        <link rel="stylesheet" href="./resources/overlay.css" />
+        <link rel="stylesheet" href="./resources/fonts.min.css" />
+        <link href="./resources/bootstrap.css" rel="stylesheet"/>
+        <script src="./resources/bootstrap.js"></script>
+</h:head>
+<h:body>
+
+    <!-- Navbar using JSF tags -->
+    <nav class="navbar navbar-light relative-top bg-light shadow-sm">
+        <div class="container-lg collapse navbar-collapse">
+            <a class="navbar-brand text-secondary fw-bold fs-4" href="#">My Portfolio</a>
+               <ul class="navbar-nav">
+                 <h:form>
+                     <h:commandLink 
+                      class="w3-btn w3-hover-secondary
+                      w3-border-bottom" 
+                      style="width:60%"
+                      action="basic_tags"
+                      value="Basic">
+                    </h:commandLink>
+                     
+                     <h:commandLink 
+                      class="w3-btn w3-hover-secondary
+                      w3-border-bottom" 
+                      style="width:60%"
+                      action="facelets_tags"
+                      value="Facelets">
+                    </h:commandLink>
+                     
+                     <h:commandLink 
+                      class="w3-btn w3-hover-secondary
+                      w3-border-bottom" 
+                      style="width:60%"
+                      action="core_tags"
+                      value="Core">
+                    </h:commandLink>
+           
+                   <h:commandLink 
+                      class="w3-btn w3-hover-secondary
+                      w3-border-bottom" 
+                      style="width:60%"
+                      action="managed_bean"
+                      value="Managed Bean">
+                    </h:commandLink>
+               </h:form>
+               </ul>
+            </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6 mt-5">
+                    <div class="home-img text-center">
+                        <b><img src="images/MY WIFEYY IMAGE.png" class="w3 rounded-circle mw-100"/>
+                        <!--<h:graphicImage library="images" name="MY WIFEYY IMAGE.png" class="w3 rounded-circle mw-100"/>-->
+                        </b>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Hello I'm a</p>
+                        <h1 class="text-secondary text-uppercase fs-1 fw-bold">Software Engineer</h1>
+                        <h2 class="fs-4">Albert Excel</h2>
+                        <p class="mt-4 text-muted">I am dedicated and enthusiastic...</p>
+                          <a href="portfolio" class="btn btn-secondary px-3 mt-3">My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--ABOUT-->
+   <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">I am Albert Excel a dedicated and enthusiastic student studying software engineering.
+              </h3>
+              <p class="text-muted">Excel Albert, a diligent and aspiring individual, embarked on a transformative journey in programming at the esteemed NIIT Institution. With a thirst for knowledge and a passion for technology, 
+              Excel chose NIIT as the gateway to unlocking her potential in the realm of programming.</p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">10</h4>
+                <p>Projects Completed</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">9</h4>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">7</h4>
+                <p>Positive Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="#" class="btn-px-3 btn btn-secondary me-5">Portfolio</a>
+              <div class="social-links">
+                <a href="#" class="text-dark me-2"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-dark me-2"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">JavaScript</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Css</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+          </div>
+          <div class="skill-item">
+            <h3 class="fs-6">Bootstrap</h3>
+            <div class="progress" style="height: 5px;">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    
+    <!--SERVICES-->
+   <section class="services bg-white" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+           <div class="section-title text-center">
+             <h2 class="fw-bold mb-5">What I Do</h2>
+           </div>
+          </div>
+        </div>
+        <div class="row text-center d-flex justify-content-around">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="services-item shadow-sm p-4 rounded bg-white  m-auto">
+              <div class="icon my-3 text-secondary fs-2">
+                <i class="fa-solid fa-code"></i>
+              </div>
+                <h3 class="fs-5 py-2">Web Development</h3>
+                <p class="text-muted">Web development refers to the process of creating websites or web applications that are accessible via the internet.</p>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="services-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-secondary fs-2">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+                <h3 class="fs-5 py-2">Programming</h3>
+                <p class="text-muted">Programming is the process of creating instructions that a computer can execute to perform specific tasks or solve problems. 
+                  It involves writing code using programming languages such as Python, Java, C++, or JavaScript.</p>
+          </div>
+        </div>
+    </div>
+    </div>
+   </section>
+    
+    <!--CONTACT-->
+   <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-secondary">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Email</h3>
+              <p class="text-muted">example@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-secondary">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Phone</h3>
+              <p class="text-muted">234 137 084 ***</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm"/>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class="btn btn-secondary px-3">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+   </section>
+
+   <!--FOOTER-->
+   <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+            <p class="m-0 text-center text-muted"> 2024 NIIT</p>
+        </div>
+      </div>
+    </div>
+   </footer>
+
+</h:body>
+</html>

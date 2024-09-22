@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+<h:head>
+    <title>Portfolio - Input Page</title>
+    <h:outputStylesheet library="css" name="bootstrap.min.css" />
+</h:head>
+<h:body>
+    <div class="container">
+        <h2>Input Page - JSF HTML & Core Tags:</h2>
+        <h:form>
+            <h:outputLabel for="name" value="Name:"/>
+            <h:inputText id="name" value="#{bean.name}" required="true"/>
+            
+            <h:outputLabel for="email" value="Email:"/>
+            <h:inputText id="email" value="#{bean.email}" required="true"/>
+            
+            <h:commandButton value="Submit" action="#{bean.submit}"/>
+        </h:form>
+    </div>
+</h:body>
+</html>

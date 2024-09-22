@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelets Tags</title>
+        <link rel="stylesheet" href="./resources/fonts.css" />
+        <link rel="stylesheet" 
+              href="./resources/fonts.min.css" />
+        <link rel="stylesheet" href="./resources/w3.css" />
+        <link rel="stylesheet" href="./resources/overlay.css" />
+        <link rel="stylesheet" href="./resources/fonts.min.css" />
+        <link href="./resources/bootstrap.css" rel="stylesheet"/>
+        <script src="./resources/bootstrap.js"></script>
+        <h:outputStylesheet name="./resources/bootstrap.css"/>
+        <h:outputStylesheet name="./resources/fonts.min.css"/>
+        <h:outputStylesheet name="./resources/bootstrap.js"/>
+    </h:head>
+    <h:body>
+        <nav class="navbar navbar-light relative-top bg-light shadow-sm">
+        <div class="container-lg collapse navbar-collapse">
+            <a class="navbar-brand text-secondary fw-bold fs-4" href="#">Facelets Tags</a>
+        </div>
+          <div class="me-md-5">
+            <a href="portfolio.xhtml"><button>Go back</button></a>
+        </div>
+        </nav>
+        
+        <br>
+        <div>
+        <ul class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:composition </div>
+                Defines a page fragment that is included in another facelet page. It can be used to define a template client.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:define </div>
+                Allows you to define content inside a template.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:include </div>
+                Includes content from another Facelets file into the current view.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:insert </div>
+                Used within a template to declare a placeholder that is filled by content defined in the template client.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:decorate </div>
+                 Similar to ui:include, but also allows content within its body to override sections defined in the included file
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:remove </div>
+                Designates that the content within this tag should not be rendered.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:repeat </div>
+                A data iteration component, similar to h:dataTable but more flexible as it does not render its own HTML table markup.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:param </div>
+                Declares a parameter that can be passed to included files or templates.
+             </div>
+          </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+             <div class="ms-2 me-auto">
+                 <div class="fw-bold"> ui:fragment </div>
+                A grouping component that does not produce any HTML output, useful for conditional rendering.
+             </div>
+          </li>
+        </ul>
+        </div>
+        </br>
+    </h:body>
+</html>
